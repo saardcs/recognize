@@ -22,7 +22,7 @@ if image_data:
 
     with st.spinner("Analyzing..."):
         response = client.chat.completions.create(
-            model="gpt-4o",   # <-- IMPORTANT: this one works
+            model="gpt-4o-mini",   # <-- IMPORTANT: this one works
             messages=[
                 {
                     "role": "user",
